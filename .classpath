@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v7.0"/>
+	<classpathentry kind="lib" path="E:/jar_home/爬虫所用jar/httpclient/commons-codec-1.6.jar"/>
+	<classpathentry kind="lib" path="E:/jar_home/爬虫所用jar/httpclient/commons-httpclient-3.1.jar"/>
+	<classpathentry kind="lib" path="E:/jar_home/爬虫所用jar/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="E:/jar_home/爬虫所用jar/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="E:/jar_home/爬虫所用jar/HTMLParser-2.0-SNAPSHOT/lib/filterbuilder.jar"/>
+	<classpathentry kind="lib" path="E:/jar_home/爬虫所用jar/HTMLParser-2.0-SNAPSHOT/lib/htmllexer.jar"/>
+	<classpathentry kind="lib" path="E:/jar_home/爬虫所用jar/HTMLParser-2.0-SNAPSHOT/lib/htmlparser.jar"/>
+	<classpathentry kind="lib" path="E:/jar_home/爬虫所用jar/HTMLParser-2.0-SNAPSHOT/lib/sitecapturer.jar"/>
+	<classpathentry kind="lib" path="E:/jar_home/爬虫所用jar/HTMLParser-2.0-SNAPSHOT/lib/thumbelina.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
