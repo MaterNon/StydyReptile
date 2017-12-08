@@ -50,7 +50,7 @@ public class MyCrawler {
 		//初始化 URL 队列
 		initCrawlerWithSeeds(seeds);
 		//循环条件：待抓取的链接不空且抓取的网页不多于1000
-		while(!LinkQueue.unVisitedUrlsEmpty()&&LinkQueue.getVisitedUrlNum()<=55)
+		while(!LinkQueue.unVisitedUrlsEmpty()&&LinkQueue.getVisitedUrlNum()<=255)
 		{
 			//队头URL出队列
 			String visitUrl=(String)LinkQueue.unVisitedUrlDeQueue();

@@ -76,7 +76,7 @@ public class DownLoadFile {
 		/* 1.生成 HttpClinet 对象并设置参数 */
 		HttpClient httpClient = new HttpClient();
 		// 设置代理服务器的IP地址和端口
-		httpClient.getHostConfiguration().setProxy("192.168.222.132",10086);
+	//	httpClient.getHostConfiguration().setProxy("192.168.222.132",10086);
 			
 		// 设置 Http 连接超时 5s
 		httpClient.getHttpConnectionManager().getParams().setConnectionTimeout(
