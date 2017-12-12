@@ -19,13 +19,15 @@ package edu.rex.common.util;
  */
 public class MD5 {
 	 byte[] source;
-	public MD5(String sour){
+	public MD5(){
+		
+	}
+	public  String getMD5( String sour) {
 		if(sour!=null)
 			source = sour.getBytes();
 		else 
 			source = null;
-	}
-	public  String getMD5() {
+	
 		if(source==null)
 			return null;
 		else
