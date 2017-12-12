@@ -12,5 +12,7 @@
 	<classpathentry kind="lib" path="E:/jar_home/爬虫所用jar/HTMLParser-2.0-SNAPSHOT/lib/htmlparser.jar"/>
 	<classpathentry kind="lib" path="E:/jar_home/爬虫所用jar/HTMLParser-2.0-SNAPSHOT/lib/sitecapturer.jar"/>
 	<classpathentry kind="lib" path="E:/jar_home/爬虫所用jar/HTMLParser-2.0-SNAPSHOT/lib/thumbelina.jar"/>
+	<classpathentry kind="lib" path="E:/jar_home/commons-pool-1.6.jar"/>
+	<classpathentry kind="lib" path="E:/jar_home/jedis-2.1.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
