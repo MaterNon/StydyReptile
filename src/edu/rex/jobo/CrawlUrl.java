@@ -13,6 +13,8 @@ import java.util.Date;
 
 import com.sun.jmx.snmp.Timestamp;
 
+import edu.rex.SerializableObject;
+
 /**
  * 
  * @ClassName:     CrawlUrl   

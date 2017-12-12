@@ -8,7 +8,8 @@
 */
 package edu.rex.test.util;
 
-import edu.rex.common.util.MD5;
+import edu.rex.jobo.CrawlUrl;
+import edu.rex.redis.operate.RedisCRUD;
 
 /**
  * 
@@ -31,8 +32,16 @@ public class TestMd5 {
 	 * @throws   
 	 */
 	public static void main(String[] args) {
-		MD5 m5  = new MD5("https://www.baidu.com");
-		System.out.println(m5.getMD5());
+		RedisCRUD rc = new RedisCRUD();
+		CrawlUrl url = new CrawlUrl();
+		url.setOriUrl("http://www.163.com");
+		rc.putUrl(url);
+		try { 
+			System.out.println(((CrawlUrl)rc.getNext()).getUrl());
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 
 	}
 
